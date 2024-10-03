@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react'
-import {ShopContext} from '../context/ShopContext'
-import {useParams} from 'react-router-dom'
-import { assets } from '../assets/assets';
+import {ShopContext} from '../context/ShopContext';
+import {useParams} from 'react-router-dom';
+import { assets } from '../assets/assets'; 
 
 const Product = () => {
 
