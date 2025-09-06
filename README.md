@@ -75,26 +75,6 @@ Ce projet illustre :
 
 ---
 
-## 📂 Structure du projet
-
-E-Commerce-Project/
-├─ front/ # App Web (React/Vite)
-│ ├─ src/
-│ │ ├─ pages/ # Pages principales
-│ │ ├─ features/ # Auth, panier, produits
-│ │ ├─ components/ # UI réutilisable
-│ │ └─ main.jsx
-│ └─ ...
-└─ back/ # API REST (Node/Express)
-├─ src/
-│ ├─ routes/ # endpoints API
-│ ├─ services/ # logique métier
-│ ├─ prisma/ # ORM & DB
-│ └─ server.js
-└─ ...
-
----
-
 ## ⚙️ Installation
 
 ### Prérequis
