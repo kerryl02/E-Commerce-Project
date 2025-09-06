@@ -52,26 +52,18 @@ Ce projet illustre :
 
 ## 🛠️ Stack technique
 
-**Frontend**  
-- React 18 + Vite  
-- React Router  
-- Tailwind CSS  
-- State management (Context / Zustand)  
-
-**Backend**  
-- Node.js + Express  
-- Base de données : PostgreSQL (via Prisma)  
-- Authentification : JWT  
-- Paiement : Stripe  
-
-**Qualité & Outils**  
-- ESLint, Prettier  
-- GitHub Actions (CI)  
-- Jest / Vitest pour les tests  
-
-**Déploiement**  
-- Frontend : Vercel  
-- Backend : [à compléter → Railway, Render, ou VPS]  
+| Fonctionnalité         | Outils / Librairies                   |
+|------------------------|---------------------------------------|
+| Framework frontend     | React 18                              |
+| Build & Dev tooling    | Vite (HMR, fast build)                |
+| Qualité du code        | ESLint                                |
+| Styles                 | Tailwind CSS via PostCSS              |
+| Configurations         | vite.config.js, tailwind.config.js    |
+| Déploiement frontend   | Vercel                                |
+| Backend API            | Node.js + Express                     |
+| Base de données        | PostgreSQL (via Prisma)               |
+| Authentification       | JWT (JSON Web Tokens)                 |
+| Paiement               | Stripe (Payment Intents + Webhooks)   |
 
 ---
 
