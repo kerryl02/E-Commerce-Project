@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm build:*)",
+      "WebFetch(domain:sprocket.studio)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfix(ui): improve ref handling in GlowCard component\n\n- Made useCursorGlow generic to accept specific HTML element types\n- Simplified ref assignment by passing ref directly instead of callback\n- Removed unsafe type casting that could cause hydration issues\n- Improved type safety with HTMLDivElement type parameter\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(pnpm list:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
